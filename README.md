@@ -104,6 +104,7 @@ anvil
 
 forge script script/DeployMerkelAirdrop.s.sol --rpc-url http://localhost:8545 --private-key YOUR_PRIVATE_KEY --broadcast
 
+---
 
 Example Use Case
 
@@ -121,6 +122,7 @@ Say we hardcoded this entry:
 
 - If valid, 25 BAGEL tokens are sent to the recipient.
 
+--- 
 
 Future Improvements
 
