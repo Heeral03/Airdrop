@@ -60,28 +60,6 @@ If all checks pass — tokens are transferred.
 
 ---
 
-## Project Structure
-
-├── src/
-│ ├── BagelToken.sol # ERC20 token used for airdrops
-│ └── MerkelAirdrop.sol # Main contract
-├── script/
-│ ├── DeployMerkelAirdrop.s.sol # Deploy contract with Merkle root
-│ ├── Interact.s.sol # Relayer/claim simulation
-│ ├── MakeMerkel.s.sol # Script to create Merkle tree
-│ ├── GenerateInput.s.sol # Mock data generator
-│ └── target/
-│ ├── input.json # Hardcoded allowlist
-│ └── output.json # Merkle tree with proof info
-├── test/
-│ └── TestAirdrop.t.sol # Unit tests
-├── lib/ # External dependencies
-├── foundry.toml # Foundry config
-├── .gitignore
-└── README.md
-
----
-
 
 ## Getting Started
 
