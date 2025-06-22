@@ -106,7 +106,7 @@ forge script script/DeployMerkelAirdrop.s.sol --rpc-url http://localhost:8545 --
 
 ---
 
-Example Use Case
+## Example Use Case
 
 Say we hardcoded this entry:
 {
@@ -124,7 +124,7 @@ Say we hardcoded this entry:
 
 --- 
 
-Future Improvements
+## Future Improvements
 
 - Replace hardcoded allowlist with off-chain JSON input
 
